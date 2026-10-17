@@ -1,6 +1,6 @@
 [submodule "tools/core"]
 	path = tools/core
-	url = https://git.bug.tools/bug/imgui-luau.git
+	url = https://github.com/4DBug/imgui-luau.git
 [submodule "tools/imcurveedit"]
 	path = tools/imcurveedit
-	url = https://git.bug.tools/bug/imcurveedit-luau.git
+	url = https://github.com/4DBug/imcurveedit-luau.git
