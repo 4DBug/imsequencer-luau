@@ -1,0 +1,5 @@
+local RS = game:GetService("ReplicatedStorage")
+local G = require(RS:WaitForChild("ImGui"))
+local ImSequencer = require(RS:WaitForChild("ImSequencer"))(G)
+assert(type(ImSequencer.Sequencer) == "function" and ImSequencer.SEQUENCER_EDIT_ALL == 10)
+print("OK")

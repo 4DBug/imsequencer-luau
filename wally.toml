@@ -1,0 +1,11 @@
+[package]
+name = "4dbug/imsequencer-luau"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+license = "MIT"
+description = "Timeline/sequencer (ImSequencer from ImGuizmo) for imgui-luau."
+include = ["ImSequencer.lua", "LICENSE", "README.md", "wally.toml", "default.project.json"]
+
+[peer-dependencies]
+ImGui = "4dbug/imgui-luau@^0.4.1"

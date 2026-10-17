@@ -1,0 +1,12 @@
+{
+	"name": "imsequencer-luau",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"ImGui": { "$path": "tools/core/build/ImGuiTyped.luau", "Impl": { "$path": "tools/core/build/ImGui.luau" } },
+			"ImSequencer": { "$path": "ImSequencer.lua" },
+			"ImCurveEdit": { "$path": "tools/imcurveedit/ImCurveEdit.lua" }
+		},
+		"StarterPlayer": { "StarterPlayerScripts": { "ImSequencerExample": { "$path": "examples/roblox/main.client.luau" } } }
+	}
+}
